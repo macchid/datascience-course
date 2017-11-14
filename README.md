@@ -50,7 +50,7 @@ Completar el formulario de inscripción al curso [aquí](https://goo.gl/forms/tO
 |Nombre|Descripción|Tipo de Dato|Posibles Valores|
 |---|---|---|---|
 |**Nº**|Secuencia autoincremental que indica la posición del registro|Integer| `[0-9]+`|
-|**Condición**|Situación actual del Becario|Becario, Becario Retornado, No Becario, Pendiente|
+|**Condición**|String|Situación actual del Becario|Becario, Becario Retornado, No Becario, Pendiente|
 |**Nº**|Campo repetido *ver campo Nº al inicio* | | |
 |**Tipo de Convocatoria**|Convocatoria de la cual participó el Becario|String|1era. Convocatoria Autogestionada, 2da. Convocatoria Autogestionada, 3era. Convocatoria Autogestionada, 4ta. Convocatoria Autogestionada, Convocatoria Chevening, Convocatoria Docente - Francia, Convocatoria Docente 01 - España, Convocatoria Francia - SFERE, Convocatoria Fullbright, Convocatoria Laspau - Doctorado, Laspau|
 |**Fecha de adjudicación**|Dia, mes y año en que se otorga la beca al Becario.|Date||
@@ -61,7 +61,7 @@ Completar el formulario de inscripción al curso [aquí](https://goo.gl/forms/tO
 |**Cargo**|En caso de ser Funcionario Público, el cargo que el Becario desempeña en la Institución *(ver campo Funcionario Público)*|String|no aplica, *Cargo del Becario*|
 |**Goce de Sueldo**|Si el Becario es Funcionario Público, indica si gozará de sueldo durante el tiempo que duren sus estudios|String|SI, NO, no aplica|
 |**Tipo de Beca (según Programa aprobado)**|Descripción del Programa Aprobado mediante el cual se otorga la Beca|String|*vacio*, Doctorado para Investigadores en CyT, Maestrí­a para Profesionales en otras Áreas relevantes, Maestría para Profesionales en Educación, Maestrí­a para Profesionales en CyT, Maestrí­a para Investigadores en CyT, Becas de Doctorado|
-|**Área de la Ciencia**|Rama científica en que se enfoca el estudio de Postgrado otorgado al Becario|String|sin dato, no aplica, Ciencias Agrícolas, Ciencias Exactas y Naturales, Ciencias Médicas y de la Salud, Ciencias Sociales, Educación, Humanidades, Ingeniería y Teconlogía|	
+|**Área de la Ciencia**|Rama científica en que se enfoca el estudio de Postgrado otorgado al Becario|String|sin dato, no aplica, Ciencias Agrícolas, Ciencias Exactas y Naturales, Ciencias Médicas y de la Salud, Ciencias Sociales, Educación, Humanidades, Ingeniería y Teconlogía|
 |**Disciplina**|Materia específica del Área de la Ciencia en la que se enfoca el curso de Postgrado|String||
 |**Sector priorizado Conacyt**|Clasificación, entre los Sectores Priorizados por la CONACyT; de la Materia que estudia la carrera de Postgrado seleccionada|String||
 |**Subsector priorizado**|Sub-clasificacion, dentro de la clasificacion anterior(*ver columna Sector Priorizado Conacyt*)|String||
